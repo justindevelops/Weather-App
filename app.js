@@ -1,8 +1,7 @@
 const temperature = document.querySelector('.temperature');
 const icon = document.querySelector('img');
 const API_KEY = "b5e108b133efdb36384b821ad7ad5315";
-const submitButton = document.querySelector('.submit-btn')
-//let cityName = prompt("What city are you in?");
+const submitButton = document.querySelector('.submit-btn');
 let cityName = "Denver"; //default
 let fahrenheit = 0;
 
