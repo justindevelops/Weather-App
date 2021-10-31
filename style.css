@@ -1,0 +1,15 @@
+* {
+    border: 1px red solid;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px yellow solid;
+    align-items: center;
+}
+
+div img {
+    border: 2px black solid;
+}
