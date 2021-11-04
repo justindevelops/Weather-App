@@ -6,20 +6,54 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container">
-            <img src="#">
-            <h1 class="temperature display"></h1>
+      <div class="topInfo">
+        <h1>Weather Description</h1>
+        <h5>City Name</h5>
+        <h6>Date of request</h6>
+      </div>
+      <div class="mainView">
+        <div class="leftcontainer">
+          <div class="cell feelsLike">
+              <img src=content/icons/feelsLike.png>
+              <h5>Feels like</h5>
+              <h1>#</h1>
+          </div>
+          <div class="cell humidity">
+              <img src=content/icons/humidity.png>
+              <h5>Humidity</h5>
+              <h1>#</h1>
+          </div>
         </div>
-        <div class="userInput">
-            <form action="" method="get" class="form-example">
-                <div class="form-example">
-                  <label for="name">Enter your city: </label>
-                  <input type="text" name="name" id="name" required>
-                </div>
-                <div class="form-example">
-                  <input class="submit-btn" type="submit" value="Get weather">
-                </div>
-              </form>              
+
+        <div class="midcontainer">
+          <!--<img class="midImage" src="#">
+          <h1 class="temperature display"></h1>-->
+          
+        </div>
+
+        <div class="rightcontainer">
+          <div class="cell rainChance">
+            <img src=content/icons/rainChance.png>
+            <h5>Chance of rain</h5>
+            <h1>N/A</h1>
+          </div>
+          <div class="cell windSpeed">
+              <img src=content/icons/windSpeed.png>
+              <h5>Wind speed</h5>
+              <h1>#</h1>
+          </div>
+        </div>
+          <!--<div class="userInput">
+              <form action="" method="get" class="form-example">
+                  <div class="form-example">
+                    <label for="name">Enter your city: </label>
+                    <input type="text" name="name" id="name" required>
+                  </div>
+                  <div class="form-example">
+                    <input class="submit-btn" type="submit" value="Get weather">
+                  </div>
+                </form>              
+          </div>-->
         </div>
     </body>
     <script src="app.js"></script>
